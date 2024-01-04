@@ -1,0 +1,11 @@
+users
+    name
+    email
+    telephone
+    - viacep
+        road
+        neighborhood
+        city
+        number
+        complement
+        zip_code
