@@ -13,8 +13,8 @@ export class CreateUserDto {
     @IsEmail()
     email: string;
     
-    @IsNumber()
-    telephone: number;
+    @IsString()
+    telephone: string;
     
     @IsString()
     road: string;

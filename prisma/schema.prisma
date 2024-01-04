@@ -14,7 +14,7 @@ model User {
   id Int @default(autoincrement()) @id
   name String 
   email String @unique
-  telephone Int 
+  telephone String 
   road String
   neighborhood String
   city String
