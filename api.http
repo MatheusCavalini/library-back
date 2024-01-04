@@ -1,11 +1,15 @@
-users
-    name
-    email
-    telephone
-    - viacep
-        road
-        neighborhood
-        city
-        number
-        complement
-        zip_code
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Matheus",
+    "email": "matheus@email.com",
+    "telephone": 21980679807,
+    "road": "Caracas",
+    "neighborhood": "Bento Ribeiro",
+    "city": "Rio de Janeiro",
+    "number": 17,
+    "complement": "Casa 2",
+    "zip_code": 21331740,
+    "is_admin":  true
+}
